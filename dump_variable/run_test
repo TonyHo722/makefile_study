@@ -1,0 +1,4 @@
+make -f test.mk -f var.mk OBJS
+make -f test.mk -f var.mk d-foo
+make -f test.mk -f var.mk d-CFLAGS
+make -f test.mk -f var.mk d-COMPILE.c
